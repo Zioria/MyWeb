@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" media="screen" href="Main.css" />
+        <script src="main.js"></script>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div>Shop</div>
         <h1> ร้านผักจริงๆ </h1>
+        <div class="Card">
+            <div class="Image"/>
+                 <img src="C:\Users\HP20\Pictures\Frostpunk\cabbage.jpg"  width="190" height ="150" />
+             </div>
+            
+            <div class="des-wrapper"> 
+                <div class="Name">
+                    มะเขือเทศ
+                </div>
+                <div class="price">
+                    ราคา : 20 บาท
+                </div>
+            </div>
        
+            <div class="Submit">
+                     <button class="add-Order" onclick="addOrder('มะเขือเทศ')">
+                                      ซื้อ
+                    </button>
+             </div>
+            
+            <p id="cart"></p>
     </body>
 </html>

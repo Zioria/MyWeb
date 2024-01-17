@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 17, 2024, 1:27:50 PM
+    Author     : HP20
+*/
+.Card {
+    
+    width: 200px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    height: 200px;
+    overflow: hidden;
+}
+ 
+.des-wrapper {
+    padding: 10px;
+    height: 60px;
+}
+ 
+.name {
+    color: #20d600;
+}
+
+.add-Order{
+    background: #20d600;
+    border: none;
+    color: white;
+    float: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0,2);
+}
